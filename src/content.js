@@ -104,37 +104,51 @@ export const siteContent = {
 
   // Process Page Content
   process: {
-    title: "Our Development Process",
-    subtitle: "From concept to deployment, our systematic approach ensures robust and profitable trading algorithms",
+    title: "My Algorithm Development Process",
+    subtitle: "From trade idea to live trading, every algorithm follows a rigorous validation process focused on consistent profitability and risk management",
     steps: [
       {
         number: "1",
-        title: "Research & Hypothesis",
-        description: "We begin with extensive market research, identifying inefficiencies and developing testable hypotheses. Our team analyzes market microstructure, behavioral patterns, and statistical anomalies across different timeframes and asset classes.",
+        title: "Idea & Code Development",
+        description: "Every algorithm starts with a trading idea based on market patterns, inefficiencies, or statistical relationships. I code the strategy from scratch, building in proper risk management and position sizing from the beginning. The focus is on creating clean, logical code that can be easily tested and optimized.",
         checklist: [
-          "Market inefficiency identification",
-          "Statistical hypothesis formulation",
-          "Literature review and academic research"
+          "Market pattern identification",
+          "Custom algorithm coding",
+          "Built-in risk management systems",
+          "Clean, testable code architecture"
         ]
       },
       {
         number: "2",
-        title: "Data Analysis & Backtesting",
-        description: "Rigorous backtesting using high-quality historical data with realistic transaction costs, slippage, and market impact models. We employ walk-forward analysis and out-of-sample testing to ensure robustness.",
+        title: "In-Sample Backtesting & Optimization",
+        description: "Using at least 2 years of historical data, I rigorously backtest and optimize the algorithm. My primary criteria is the return-to-max-drawdown ratio - ensuring the strategy generates solid returns while keeping drawdowns manageable. I also prioritize higher risk-reward ratios to maximize efficiency.",
         checklist: [
-          "10+ years of tick-level data",
-          "Monte Carlo simulation testing",
-          "Multiple market regime analysis"
+          "Minimum 2 years of historical data",
+          "Return-to-max-drawdown optimization",
+          "Risk-reward ratio analysis",
+          "Parameter optimization and tuning"
         ]
       },
       {
         number: "3",
-        title: "Live Testing & Optimization",
-        description: "Before full deployment, algorithms undergo extensive paper trading and limited live testing. We continuously monitor performance and make data-driven optimizations while maintaining strict risk controls.",
+        title: "Out-of-Sample Validation",
+        description: "The real test comes with out-of-sample data that the algorithm has never seen. If the strategy maintains its return-to-max-drawdown ratio on fresh data, it proves the edge is real and not just curve-fitted. Only algorithms that pass this critical test move forward to live testing.",
         checklist: [
-          "3-6 months paper trading minimum",
-          "Real-time performance monitoring",
-          "Continuous parameter optimization"
+          "Fresh, unseen market data testing",
+          "Return-to-drawdown ratio validation",
+          "Performance consistency verification",
+          "Edge confirmation process"
+        ]
+      },
+      {
+        number: "4",
+        title: "Live Testing & Deployment",
+        description: "Algorithms that maintain profitability in out-of-sample testing go into simulation accounts first. After 2 weeks to 2 months of consistent performance, I deploy them to evaluation or live accounts. This final step ensures real-world execution matches backtested expectations.",
+        checklist: [
+          "Simulation account testing",
+          "2 weeks to 2 months validation period",
+          "Real execution environment testing",
+          "Live account deployment"
         ]
       }
     ]
