@@ -57,7 +57,10 @@ export const siteContent = {
         description: "Trend-following algorithm optimized for commodity futures. Captures medium to long-term price movements with adaptive position sizing.",
         metrics: {
           annualReturn: "+24.3%",
-          sharpeRatio: "1.47"
+          sharpeRatio: "1.47",
+          maxDrawdown: "5.8%",
+          winRate: "68%",
+          sharpePerYear: "1.5"
         },
         markets: "Energy, Metals, Agriculture"
       },
@@ -68,7 +71,10 @@ export const siteContent = {
         description: "Statistical arbitrage strategy targeting short-term price inefficiencies in index futures with high-frequency execution.",
         metrics: {
           annualReturn: "+18.7%",
-          sharpeRatio: "2.13"
+          sharpeRatio: "2.13",
+          maxDrawdown: "7.2%",
+          winRate: "45%",
+          sharpePerYear: "1.6"
         },
         markets: "S&P 500, NASDAQ, Russell 2000"
       },
@@ -79,7 +85,10 @@ export const siteContent = {
         description: "Advanced volatility trading system that capitalizes on VIX futures and options market inefficiencies during high-stress periods.",
         metrics: {
           annualReturn: "+31.2%",
-          sharpeRatio: "1.89"
+          sharpeRatio: "1.89",
+          maxDrawdown: "4.1%",
+          winRate: "38%",
+          sharpePerYear: "1.7"
         },
         markets: "VIX, Currency Futures"
       },
@@ -90,15 +99,20 @@ export const siteContent = {
         description: "Diversified strategy combining multiple timeframes and asset classes with dynamic hedging for capital preservation.",
         metrics: {
           annualReturn: "+16.4%",
-          sharpeRatio: "1.92"
+          sharpeRatio: "1.92",
+          maxDrawdown: "3.5%",
+          winRate: "52%",
+          sharpePerYear: "1.8"
         },
         markets: "Multi-Asset Portfolio"
       }
     ],
     labels: {
-      annualReturn: "Annual Return",
-      sharpeRatio: "Sharpe Ratio",
-      markets: "Markets:"
+      annualReturn: "Annual Return (%)",
+      sharpeRatio: "Sharpe Ratio", 
+      maxDrawdown: "Max Drawdown (%)",
+      winRate: "Win Rate (%)",
+      sharpePerYear: "Sharpe per Year"
     }
   },
 
