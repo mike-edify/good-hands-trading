@@ -132,10 +132,11 @@ export const siteContent = {
       {
         number: "3",
         title: "Out-of-Sample Validation",
-        description: "The real test comes with out-of-sample data that the algorithm has never seen. If the strategy maintains its return-to-max-drawdown ratio on fresh data, it proves the edge is real and not just curve-fitted. Only algorithms that pass this critical test move forward to live testing.",
+        description: "The real test comes with out-of-sample data that the algorithm has never seen. If the strategy maintains its return-to-max-drawdown ratio on fresh data, it proves the edge is real and not just curve-fitted. I also perform Monte Carlo analysis on out-of-sample results to further validate robustness and ensure the strategy can withstand a wide range of market scenarios. Only algorithms that pass this critical test move forward to live testing.",
         checklist: [
           "Fresh, unseen market data testing",
           "Return-to-drawdown ratio validation",
+          "Monte Carlo analysis for robustness",
           "Performance consistency verification",
           "Edge confirmation process"
         ]
