@@ -61,7 +61,7 @@ export const siteContent = {
         status: "Active",
         statusColor: "green",
         description:
-          "Trend-following algorithm optimized for commodity futures. Captures medium to long-term price movements with adaptive position sizing.",
+          "Momentum-based trading strategy focusing on high-probability setups in index futures with low latency execution.",
         metrics: {
           annualReturn: "+24.3%",
           sharpeRatio: "1.47",
@@ -69,7 +69,8 @@ export const siteContent = {
           winRate: "68%",
           sharpePerYear: "1.5",
         },
-        markets: "Energy, Metals, Agriculture",
+        markets: "NQ, YM, FDAX",
+        image: "/good-hands-trading/images/nq-momo.png",
       },
       {
         name: "Mean Reversion Pro",
@@ -85,6 +86,7 @@ export const siteContent = {
           sharpePerYear: "1.6",
         },
         markets: "S&P 500, NASDAQ, Russell 2000",
+        image: "https://picsum.photos/400/300?random=1",
       },
       {
         name: "Volatility Edge",
@@ -100,6 +102,7 @@ export const siteContent = {
           sharpePerYear: "1.7",
         },
         markets: "VIX, Currency Futures",
+        image: "https://picsum.photos/400/300?random=2",
       },
       {
         name: "Multi-Asset Hedged",
@@ -115,6 +118,7 @@ export const siteContent = {
           sharpePerYear: "1.8",
         },
         markets: "Multi-Asset Portfolio",
+        image: "https://picsum.photos/400/300?random=3",
       },
     ],
     labels: {

@@ -181,6 +181,11 @@ const AlgoTradingWebsite = () => {
                 <strong>{siteContent.portfolio.labels.markets}</strong>{" "}
                 {algorithm.markets}
               </div>
+              <img
+                src={algorithm.image}
+                alt={algorithm.name}
+                className="mt-6 rounded-lg shadow-lg"
+              />
             </div>
           ))}
         </div>
