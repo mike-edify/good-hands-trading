@@ -37,12 +37,13 @@ const AlgoTradingWebsite = () => {
             <div className="text-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                 {siteContent.home.hero.title.line1}
+
+                <br />
+
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
                   {" "}
                   {siteContent.home.hero.title.highlight}
                 </span>
-                <br />
-                {siteContent.home.hero.title.line2}
               </h1>
               <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
                 {siteContent.home.hero.subtitle}
