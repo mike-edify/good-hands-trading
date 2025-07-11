@@ -3,7 +3,7 @@
 
 export const siteContent = {
   // Site Identity
-  siteName: "AlgoTrader Pro",
+  siteName: "Good Hands Trading",
 
   // Navigation
   navigation: [
