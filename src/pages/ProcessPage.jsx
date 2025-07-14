@@ -13,7 +13,12 @@ export const ProcessPage = () => (
 
       <div className="space-y-12">
         {siteContent.process.steps.map((step, index) => {
-          const gradients = [GRADIENTS.step1, GRADIENTS.step2, GRADIENTS.step3];
+          const gradients = [
+            GRADIENTS.step1,
+            GRADIENTS.step2,
+            GRADIENTS.step3,
+            GRADIENTS.step1,
+          ];
           const isReverse = index % 2 === 1;
 
           return (
