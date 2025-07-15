@@ -48,6 +48,33 @@ export const siteContent = {
         },
       ],
     },
+    // FAQ data - replace with your actual content
+    faqData: [
+      {
+        question: "What services do you offer?",
+        answer: "Add your detailed answer here about the services you provide.",
+      },
+      {
+        question: "How long does a typical project take?",
+        answer:
+          "Add your detailed answer here about project timelines and delivery expectations.",
+      },
+      {
+        question: "What is your pricing structure?",
+        answer:
+          "Add your detailed answer here about your pricing model and payment terms.",
+      },
+      {
+        question: "Do you offer ongoing support?",
+        answer:
+          "Add your detailed answer here about maintenance and support services.",
+      },
+      {
+        question: "What technologies do you work with?",
+        answer:
+          "Add your detailed answer here about your technical expertise and preferred tools.",
+      },
+    ],
   },
 
   // Portfolio/Algorithms Page Content
