@@ -243,7 +243,9 @@ export const siteContent = {
     plans: [
       {
         name: "Signal Access",
-        price: "$299",
+        price: "$199",
+        originalPrice: "$299",
+        discount: "33% OFF",
         period: "/month",
         features: [
           "Real-time trading signals",
@@ -256,7 +258,9 @@ export const siteContent = {
       },
       {
         name: "Full Access",
-        price: "$799",
+        price: "$499",
+        originalPrice: "$799",
+        discount: "38% OFF",
         period: "/month",
         badge: "Most Popular",
         features: [
@@ -270,17 +274,20 @@ export const siteContent = {
         featured: true,
       },
       {
-        name: "Enterprise",
-        price: "Custom",
-        period: "",
+        name: "Full Access - Annual",
+        price: "$3,493",
+        originalPrice: "$5,988",
+        discount: "5 Months FREE",
+        period: "/year",
         features: [
-          "Custom algorithm development",
-          "Dedicated account manager",
-          "White-label solutions",
-          "On-premise deployment",
-          "24/7 technical support",
+          "All algorithm strategies",
+          "API integration support",
+          "Detailed performance analytics",
+          "Priority customer support",
+          "Risk management tools",
+          "Save $2,495 annually",
         ],
-        buttonText: "Contact Sales",
+        buttonText: "Start Free Trial",
         featured: false,
       },
     ],

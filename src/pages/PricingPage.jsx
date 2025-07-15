@@ -1,7 +1,7 @@
 import React from "react";
 import { siteContent } from "../content.js";
 import { STYLES } from "../styles.js";
-import { CheckCircle } from "lucide-react";
+import { PricingCard } from "../components/PricingCard.jsx";
 
 export const PricingPage = () => (
   <div className={`min-h-screen ${STYLES.darkBg} ${STYLES.section}`}>
@@ -13,46 +13,7 @@ export const PricingPage = () => (
 
       <div className={STYLES.threeColumnGrid}>
         {siteContent.pricing.plans.map((plan, index) => (
-          <div
-            key={index}
-            className={`${STYLES.pricingCard} ${
-              plan.featured
-                ? STYLES.pricingCardFeatured
-                : STYLES.pricingCardDefault
-            }`}
-          >
-            {plan.featured && (
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className={STYLES.pricingBadge}>{plan.badge}</span>
-              </div>
-            )}
-            <h3 className={STYLES.cardTitle}>{plan.name}</h3>
-            <div className={STYLES.mb6}>
-              <span className={`text-4xl font-bold ${STYLES.textWhite}`}>
-                {plan.price}
-              </span>
-              <span className={STYLES.textSlate400}>{plan.period}</span>
-            </div>
-            <ul className={`space-y-3 ${STYLES.mb8}`}>
-              {plan.features.map((feature, featureIndex) => (
-                <li key={featureIndex} className="flex items-center gap-3">
-                  <CheckCircle className={`w-5 h-5 ${STYLES.textGreen400}`} />
-                  <span className={STYLES.textSlate300}>{feature}</span>
-                </li>
-              ))}
-            </ul>
-            <button
-              className={`${STYLES.ctaButton} ${
-                plan.featured
-                  ? STYLES.ctaButtonPrimary
-                  : index === 2
-                  ? STYLES.ctaButtonPurple
-                  : STYLES.ctaButtonBlue
-              }`}
-            >
-              {plan.buttonText}
-            </button>
-          </div>
+          <PricingCard key={index} plan={plan} index={index} />
         ))}
       </div>
 
