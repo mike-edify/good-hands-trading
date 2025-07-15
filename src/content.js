@@ -51,28 +51,48 @@ export const siteContent = {
     // FAQ data - replace with your actual content
     faqData: [
       {
-        question: "What services do you offer?",
-        answer: "Add your detailed answer here about the services you provide.",
+        question:
+          "I'm new to trading - can I really use algorithms without experience?",
+        answer:
+          "Absolutely! Our trading strategies are pre-built binary files that install directly into your NinjaTrader platform. You don't need to understand charts, indicators, or market patterns - the strategy does that work. Simply install the file, configure your risk settings, and let the system trade professionally on your behalf. It's like having an expert trader's strategy running on your own platform, with full control over your funds and execution.",
       },
       {
-        question: "How long does a typical project take?",
+        question:
+          "I've been trading for years but keep losing money. How is this different?",
         answer:
-          "Add your detailed answer here about project timelines and delivery expectations.",
+          "Emotional trading is the #1 reason experienced traders lose money - fear, greed, and impulse decisions destroy even good strategies. Our NinjaTrader strategies eliminate emotions entirely, executing trades based purely on data and proven logic. You install the binary file on your own platform, so you maintain complete control while removing the emotional element. Many clients were profitable on paper but struggled with execution - automated strategies solve that problem.",
       },
       {
-        question: "What is your pricing structure?",
+        question: "How do I know this isn't another trading scam?",
         answer:
-          "Add your detailed answer here about your pricing model and payment terms.",
+          "We understand your skepticism - the trading industry has many bad actors. Unlike services that want access to your funds, you install our strategies on YOUR NinjaTrader platform with YOUR broker account. We never touch your money or have access to your accounts. You get the actual binary strategy files, maintain full control, and can turn them on or off anytime. We provide transparent performance data and realistic expectations - no get-rich-quick promises.",
       },
       {
-        question: "Do you offer ongoing support?",
+        question: "Can I adjust the algorithms to match my risk tolerance?",
         answer:
-          "Add your detailed answer here about maintenance and support services.",
+          "Yes! Each NinjaTrader strategy comes with customizable parameters. You can adjust position sizes, risk levels, stop-losses, profit targets, and trading hours directly within NinjaTrader. Conservative traders can set lower risk parameters for steady gains, while aggressive traders can increase position sizes. Since it's running on your platform, you have complete control over every aspect of the strategy's behavior.",
       },
       {
-        question: "What technologies do you work with?",
+        question:
+          "How does algorithmic trading fit into my investment portfolio?",
         answer:
-          "Add your detailed answer here about your technical expertise and preferred tools.",
+          "Our NinjaTrader strategies serve as an excellent active trading component alongside traditional investments. While your long-term investments grow steadily, these strategies can generate more frequent returns from market movements. Many clients allocate 5-20% of their trading capital to automated strategies, providing active income while maintaining their other investments. Since you control everything through your own platform, it integrates seamlessly with your existing trading approach.",
+      },
+      {
+        question:
+          "What's the difference between your strategies and manual trading?",
+        answer:
+          "Our NinjaTrader strategies execute the same logic a professional trader would use, but without human limitations. They analyze market data continuously, never get tired or emotional, and execute trades precisely according to the programmed rules. You get professional-level trading strategies running on your own platform, with none of the psychological challenges that cause manual trading failures. It's like having a disciplined expert trader who never deviates from the plan.",
+      },
+      {
+        question: "How much time do I need to spend monitoring the strategies?",
+        answer:
+          "One of the biggest benefits is the time freedom - most clients check their NinjaTrader platform for just 5-10 minutes daily. The strategies handle all the monitoring, analysis, and execution automatically. You can review performance, adjust parameters if needed, and manage your account, but there's no need to watch charts or stress about market movements. It's your platform, your control, but automated execution.",
+      },
+      {
+        question: "What happens if the strategies start losing money?",
+        answer:
+          "All trading involves risk, and strategies will have losing periods - this is normal and expected. However, since you're running the strategies on your own NinjaTrader platform, you maintain complete control. You can pause, stop, or modify any strategy instantly. The strategies include built-in risk management features, and you can adjust stop-losses and position sizing at any time. We provide detailed performance data so you can make informed decisions about when to continue, adjust, or pause the strategies.",
       },
     ],
   },
