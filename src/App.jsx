@@ -116,6 +116,104 @@ const AlgoTradingWebsite = () => {
 
       {/* Main Content */}
       <main className="pt-16">{renderPage()}</main>
+
+      {/* Disclaimer Section */}
+      <div
+        className={`${STYLES.section} bg-slate-800/30 border-t border-slate-700/50`}
+      >
+        <div className={STYLES.container}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-white mb-6 text-center">
+              Important Disclosures
+            </h2>
+            <div className="space-y-6 text-sm text-slate-300 leading-relaxed">
+              <div>
+                <h3 className="font-semibold text-white mb-2">
+                  Performance Disclosure
+                </h3>
+                <p>
+                  Trading strategy performance results shown are based on
+                  backtested and simulated data. Backtested results have
+                  inherent limitations as they do not reflect actual trading
+                  conditions, including market liquidity constraints, slippage,
+                  and execution delays. These results are developed with the
+                  benefit of hindsight and may not accurately reflect the
+                  challenges of live trading environments. Individual results
+                  will vary based on market conditions, implementation timing,
+                  and user-specific settings.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-white mb-2">Risk Warning</h3>
+                <p>
+                  Trading futures, forex, and other financial instruments
+                  involves significant risk of loss and may not be suitable for
+                  all investors. You should carefully consider your financial
+                  situation and risk tolerance before using any trading
+                  strategy. Only trade with capital you can afford to lose
+                  completely. Past performance does not guarantee future
+                  results, and all trading involves the risk of substantial
+                  losses that may exceed your initial investment.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-white mb-2">
+                  No Investment Advice
+                </h3>
+                <p>
+                  The trading strategies provided are software tools and do not
+                  constitute investment advice, financial planning, or
+                  recommendations. We do not provide personalized investment
+                  guidance or make claims about guaranteed profitability. Each
+                  user is responsible for their own trading decisions and should
+                  consult with qualified financial professionals before making
+                  investment choices.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-white mb-2">
+                  User Testimonials
+                </h3>
+                <p>
+                  Customer testimonials reflect individual experiences and
+                  results achieved by specific users. These experiences are not
+                  typical and should not be interpreted as promises of similar
+                  outcomes. Trading results depend on numerous factors including
+                  market conditions, user discipline, risk management, and
+                  individual circumstances. Your results may differ
+                  significantly from those shared by other users.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-white mb-2">
+                  Software Limitations
+                </h3>
+                <p>
+                  Our NinjaTrader strategies are software tools that require
+                  proper installation, configuration, and monitoring. Technical
+                  issues, platform connectivity problems, or user error may
+                  affect performance. We recommend thorough testing in
+                  simulation mode before live trading and maintaining
+                  appropriate risk management practices at all times.
+                </p>
+              </div>
+
+              <div className="text-center pt-4 border-t border-slate-700/50">
+                <p className="text-xs text-slate-400">
+                  By purchasing and using our trading strategies, you
+                  acknowledge that you have read, understood, and agree to these
+                  terms and accept full responsibility for your trading
+                  activities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
