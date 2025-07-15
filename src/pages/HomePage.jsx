@@ -117,7 +117,7 @@ export const HomePage = () => {
                 Frequently Asked Questions
               </h2>
               <p className={STYLES.sectionSubtitle}>
-                Get answers to common questions about our services
+                Get answers to common questions
               </p>
             </div>
             <div className="max-w-3xl mx-auto">

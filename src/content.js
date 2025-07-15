@@ -17,12 +17,12 @@ export const siteContent = {
   home: {
     hero: {
       title: {
-        line1: "Augment your trading",
+        line1: "Generate Passive Income",
         line2: "with",
-        highlight: "Automation",
+        highlight: "Automated Trading",
       },
       subtitle:
-        "Professional futures trading algorithms delivering consistent returns through advanced quantitative strategies",
+        "Professional futures trading algorithms delivering good returns through statistically generated quantitative strategies",
       primaryButton: "View Algorithms",
       secondaryButton: "Get Access",
     },
@@ -52,9 +52,14 @@ export const siteContent = {
     faqData: [
       {
         question:
-          "I'm new to trading - can I really use algorithms without experience?",
+          "I'm new to futures trading - can I really use algorithms without experience?",
         answer:
-          "Absolutely! Our trading strategies are pre-built binary files that install directly into your NinjaTrader platform. You don't need to understand charts, indicators, or market patterns - the strategy does that work. Simply install the file, configure your risk settings, and let the system trade professionally on your behalf. It's like having an expert trader's strategy running on your own platform, with full control over your funds and execution.",
+          "Absolutely! Our trading strategies are pre-built binary files that install directly into your NinjaTrader platform. You don't need to understand charts, indicators, or market patterns - the strategy does that work. Simply install the file, configure your risk settings, and let the system trade professionally on your behalf. It's like having an expert trader's strategy running on your own platform, with full control over your funds and execution. ",
+      },
+      {
+        question: "C'mon.. I REALLY don't need to know anything?",
+        answer:
+          "Trading always has it's risks. So you should understand the risks and your own risk tolerance. But you don't need to know how to trade or how the strategy works. Our strategies are designed to be plug-and-play - you install the binary file on your NinjaTrader platform, set your risk parameters, and let the algorithm execute trades automatically. It's like having a professional trader's expertise without needing to learn all the details yourself.",
       },
       {
         question:
@@ -66,6 +71,11 @@ export const siteContent = {
         question: "How do I know this isn't another trading scam?",
         answer:
           "We understand your skepticism - the trading industry has many bad actors. Unlike services that want access to your funds, you install our strategies on YOUR NinjaTrader platform with YOUR broker account. We never touch your money or have access to your accounts. You get the actual binary strategy files, maintain full control, and can turn them on or off anytime. We provide transparent performance data and realistic expectations - no get-rich-quick promises.",
+      },
+      {
+        question: "What's your approach to risk management?",
+        answer:
+          "The metrics we prioritize are net profit to max drawdown ratio. Secondary to this is the risk/reward ratio. We build in strict risk controls to limit drawdowns and protect your capital. Each strategy has adjustable parameters for position sizing, stop-losses, and profit targets. While we do have recommended settings, you can customize them based on your risk tolerance. Since you're running the strategies on your own NinjaTrader platform, you have complete control over every aspect of the strategy's behavior.",
       },
       {
         question: "Can I adjust the algorithms to match my risk tolerance?",
