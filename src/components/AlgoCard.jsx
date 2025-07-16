@@ -60,6 +60,14 @@ export default function AlgoCard(index, algorithm) {
             {siteContent.portfolio.labels.riskReward}
           </div>
         </div>
+        <div className={STYLES.metricCard}>
+          <div className={`${STYLES.metricValue} ${STYLES.textGreen400}`}>
+            {algorithm.metrics.timeFrame}
+          </div>
+          <div className={STYLES.metricLabel}>
+            {siteContent.portfolio.labels.timeFrame}
+          </div>
+        </div>
       </div>
       <div className={STYLES.metricLabel}>
         <strong>{siteContent.portfolio.labels.markets}</strong>{" "}
