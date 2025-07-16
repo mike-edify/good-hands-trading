@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TrendingUp, BarChart3, Cpu, DollarSign, Menu } from "lucide-react";
+import { TrendingUp, BarChart3, Cpu, DollarSign, Menu, X } from "lucide-react";
 import { siteContent } from "./content.js";
 import { STYLES } from "./styles.js";
 import { PortfolioPage } from "./pages/PortfolioPage.jsx";
