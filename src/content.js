@@ -171,11 +171,11 @@ export const siteContent = {
         description:
           "Simple Buy the Dip strategy that captures short-term reversals in index futures. Designed for low-risk, high-reward trades.",
         metrics: {
-          totalProfit: "+31.2%",
-          maxDrawdown: "1.89",
-          returnToMaxDrawdown: "4.1%",
-          winRate: "38%",
-          riskReward: "1.7",
+          totalProfit: "$342,080.00",
+          maxDrawdown: "$80,400.00",
+          returnToMaxDrawdown: "4.2",
+          winRate: "35.1%",
+          riskReward: "-",
           timeFrame: "5 Min Bars",
         },
         markets: "NQ, ES",
