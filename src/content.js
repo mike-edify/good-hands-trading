@@ -27,24 +27,39 @@ export const siteContent = {
       secondaryButton: "Get Access",
     },
     features: {
-      sectionTitle: "Why Choose Our Algorithms?",
+      sectionTitle: "Testimonials",
       sectionSubtitle:
-        "Built on years of market experience and cutting-edge technology",
+        "Hear from our clients about their experience using our strategies",
       items: [
         {
-          title: "Proven Performance",
-          description:
-            "Consistent returns across multiple market conditions with rigorous backtesting and live performance tracking.",
+          title:
+            "I don't need to stare at my charts all day. I can just set my targets and stops, and then let the algorithms do the work.",
+          description: "James",
         },
         {
-          title: "Advanced Technology",
-          description:
-            "State-of-the-art machine learning and statistical models optimized for futures markets.",
+          title:
+            "\"I always struggle with my emotions when I have an open position. I just can't let my winners run. Now I'm able to trust the algos to close the trade at the right time.\"",
+          description: "John",
         },
         {
-          title: "Risk Management",
-          description:
-            "Built-in risk controls and position sizing to protect capital while maximizing returns.",
+          title:
+            "I use these strategies to supplement my income. I can run them on the side while I focus on my main job.",
+          description: "Miles",
+        },
+        {
+          title:
+            "Buy Monday is my favorite strategy. I run it overmight. I love waking up to see the gains it already made since I went to bed.",
+          description: "Sarah",
+        },
+        {
+          title:
+            "Algos are good for diversifcation. I mostly trade actively on MNQ, but I run other strats on MGC, and MCL to capture different market moves.",
+          description: "Alex",
+        },
+        {
+          title:
+            "There are days when my manual trades all fail, but then I look and the algos are positive. It's like having another trader working for me.",
+          description: "Mike",
         },
       ],
     },
